@@ -1,0 +1,5 @@
+package com.mars.springjdbc.model;
+
+public class ProductMapper {
+
+}

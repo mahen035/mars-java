@@ -1,0 +1,14 @@
+package com.returnship.training.java8;
+
+public class VarArgsDemo {
+
+	public static void main(String[] args) {
+		
+		show(100);
+		show(12,45);
+		show(23, 56, 45);
+	}
+	
+	static void show()
+
+}

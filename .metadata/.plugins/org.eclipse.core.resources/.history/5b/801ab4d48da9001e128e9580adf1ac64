@@ -1,0 +1,33 @@
+package com.returnship.training.java8;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class StreamDemo {
+
+	public static void main(String[] args) {
+		
+		List<Integer> numbers = Arrays.asList(2, 7, 8, 5, 21);
+		
+		Stream.of(2,4,6,7,8,9);
+		
+		//Stream<Integer> numberStream = numbers.stream();
+		
+		//numbers.stream().filter(n->n%2 != 0).map(n->n*n).sorted().forEach(System.out::println);
+			
+		//List<Integer> oddNumbers = numberStream.filter(n->n%2 != 0).map(n->n*n).sorted().collect(Collectors.toList());
+		
+		int maxNumber = numbers.stream().max(Comparator.comparing(Integer::valueOf)).get();
+		System.out.println("Greatest Number: "+maxNumber);
+	}
+
+}
+
+// Stream : API to process the collection more efficiently
+// Intermediate operations: there can be multiple intermediate operations
+// Terminal operation : there would be only one terminal operation
+// Method Reference : object::method
+// Parallel Stream 

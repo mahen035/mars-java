@@ -1,0 +1,11 @@
+package com.returnship.training.java8;
+
+public class StreamDemo {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+// Stream 

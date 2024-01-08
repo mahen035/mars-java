@@ -1,0 +1,23 @@
+package com.returnship.training.java8;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class StreamDemo {
+
+	public static void main(String[] args) {
+		
+		List<Integer> numbers = Arrays.asList(2, 7, 8, 5, 21);
+		
+		Stream<Integer> numberStream = numbers.stream();
+		
+		numberStream.
+				
+	}
+
+}
+
+// Stream : API to process the collection more efficiently
+// Intermediate operations: there can be multiple intermediate operations
+// Terminal operation : there would be only one terminal operation

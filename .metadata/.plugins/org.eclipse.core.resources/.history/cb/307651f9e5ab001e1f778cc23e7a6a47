@@ -1,0 +1,6 @@
+package com.mars.springjdbc.config;
+
+
+public class AppConfig {
+
+}
