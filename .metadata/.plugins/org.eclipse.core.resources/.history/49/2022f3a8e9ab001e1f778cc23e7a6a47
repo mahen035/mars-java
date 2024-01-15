@@ -1,7 +1,0 @@
-package com.mars.springjdbc.model;
-
-import org.springframework.jdbc.core.RowMapper;
-
-public class ProductMapper implements RowMapper<Product>{
-
-}

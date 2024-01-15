@@ -2,11 +2,15 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="spring-mvc"/>
+			<item value="web-demo"/>
 			<item value="java-basics"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="spring-mvc"/>
+			<item value="web-demo"/>
 			<item value="java-basics"/>
 		</list>
 		<list key="version">
@@ -61,10 +65,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="mars"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="spring-mvc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -6,6 +6,13 @@
 </head>
 <body>
 <h1> Welcome to JAVA WEB!!</h1>
-<a href="/web-demo/home">click here to invoke the servlet</a>
+<h1> LOGIN PAGE</h1>
+<!-- a href="/web-demo/home">click here to invoke the servlet</a>  -->
+<form action="/web-demo/home" method="post">
+	UserName: <input type ="text" placeholder="Enter your username" name="uname"/><br><br>
+	Password: <input type ="password" placeholder="Enter your password" name="pwd"/><br><br>
+	<input type ="submit" value ="Login"/>
+	
+</form>
 </body>
 </html>
